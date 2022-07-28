@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <font face="calibri">
+            <h2 align="center"> ATV  <BR>  
+                FORMULÁRIO </h2>
+
+            <fieldset align="center"> <!--Contorno ou margem para o formulário-->
+            <legend align="center">Digite seus dados</legend> 
+
+                <form action="#" method="" name="Cadastro">
+
+                    <br/>
+
+                    <label>Nome</label> <br/>
+                    <input type="text" id="nome" name="nome" size="40" maxlength="4" placeholder="SAMUEL"/>
+                    <br/> <br/>
+
+                    <label>E-mail</label> <br/>
+                    <input type="email" id="mail" name="mail" size="40" placeholder="SAMUEL@gmail.com "/>
+                    <br/><br/>
+
+                    <label>Telefone</label> <br/>
+                    <input type="tel" id="telefone" name="telefone" size="40" placeholder="319999999999"/>
+                    <br/><br/>
+
+                    <label>Data de nascimento</label><br/>
+                    <input type="date" id="data_nasc" name="data_nasc" min="1920-01-01" max="2022-07-28"/>
+                    <br/><br/>
+
+                    <label>Senha</label> <br/>
+                    <input type="password" id="senha" name="senha" size="40" placeholder="*********"/>
+                    <br/><br/>
+
+                    <label>Sexo</label> <br/>
+                    <label><input type="radio" id="sexo" name="sexo" value="M"/> M</label>
+                    <label><input type="radio" id="sexo" name="sexo" value="F"/> F</label>
+                    <br/><br/>
+
+                    <label> GENEROS DE FILME PREFERIDO </label> <br/>
+                    <label><input type="checkbox" id="TERROR" name="TERROR" value="TERROR">TERROR</label> <br/>
+                    <label><input type="checkbox" id="COMÉDIA" name="COMÉDIA" value="COMÉDIA">COMÉDIA</label> <br/>
+                    <label><input type="checkbox" id="SUSPENSE"name="SUSPENSE" value="SUSPENSE">SUSPENSE</label> <br/>
+                    <label><input type="checkbox" id="AVENTURA" name="AVENTURA" value="AVENTURA">AVENTURA</label> <br/>
+                    <label><input type="checkbox" id="OUTROS" name="OUTROS" value="OUTROS">OUTROS</label> <br/>
+                    <br/>
+
+                    <label> SELECIONE O SEU ESTADO ABAIXO <BR> &Darr; </label> <br/>
+                    <select name="estados-brasil">
+
+
+
+                        <optgroup label="Sudeste">
+                            <option value="ES">Espírito Santo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                        </optgroup>
+
+                        <optgroup label="Sul">
+                            <option value="PR">Paraná</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="SC">Santa Catarina</option>
+                        </optgroup>
+
+
+                        <optgroup label="Centro-Oeste">
+                            <option value="DF">Distrito Federal</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                        </optgroup>
+
+                        <optgroup label="Nordeste">
+                            <option value="AL">Alagoas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="SE">Sergipe</option>
+                        </optgroup>
+
+                        <optgroup label="Norte">
+                            <option value="AC">Acre</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="PA">Pará</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="TO">Tocantins</option>
+            
+                        </optgroup>
+    
+                       
+                        
+
+                    </select>
+                    
+                </form>
+            </fieldset>
+        </font>
+    </body>
+
+</html>
